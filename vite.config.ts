@@ -12,7 +12,7 @@ export default defineConfig(() => {
     plugins: [
       qwikVite({
         entryStrategy: {
-          type: 'smart',
+          type: 'inline',
         },
       }),
       tsconfigPaths(),

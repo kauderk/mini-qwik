@@ -1,81 +1,29 @@
 {
-  "symbols": {
-    "s_Ncbm0Trxwgc": {
-      "origin": "app.tsx",
-      "displayName": "app_component",
-      "canonicalFilename": "s_ncbm0trxwgc",
-      "hash": "Ncbm0Trxwgc",
-      "ctxKind": "function",
-      "ctxName": "component$",
-      "captures": false,
-      "parent": null
-    },
-    "s_0sWnTjI87LE": {
-      "origin": "app.tsx",
-      "displayName": "app_component_h1_button_onClick",
-      "canonicalFilename": "s_0swntji87le",
-      "hash": "0sWnTjI87LE",
-      "ctxKind": "eventHandler",
-      "ctxName": "onClick$",
-      "captures": false,
-      "parent": "s_Ncbm0Trxwgc"
-    }
-  },
-  "mapping": {
-    "s_Ncbm0Trxwgc": "q-175c1878.js",
-    "s_0sWnTjI87LE": "q-5f17d044.js"
-  },
+  "symbols": {},
+  "mapping": {},
   "bundles": {
-    "q-175c1878.js": {
-      "size": 245,
+    "q-34aefe51.js": {
+      "size": 58,
       "imports": [
-        "q-7b6df133.js"
-      ],
-      "dynamicImports": [
-        "q-5f17d044.js"
-      ],
-      "origins": [
-        "src/entry_app.js",
-        "src/s_ncbm0trxwgc.js"
-      ],
-      "symbols": [
-        "s_Ncbm0Trxwgc"
+        "q-43f121af.js"
       ]
     },
-    "q-307e4b06.js": {
-      "size": 87,
-      "imports": [
-        "q-7b6df133.js"
-      ],
-      "origins": [
-        "index.html",
-        "src/entry.client.ts"
-      ]
-    },
-    "q-5f17d044.js": {
-      "size": 61,
-      "origins": [
-        "src/s_0swntji87le.js"
-      ],
-      "symbols": [
-        "s_0sWnTjI87LE"
-      ]
-    },
-    "q-7b6df133.js": {
-      "size": 40143,
-      "dynamicImports": [
-        "q-175c1878.js"
-      ],
+    "q-43f121af.js": {
+      "size": 40093,
       "origins": [
         "node_modules/@builder.io/qwik/core.min.mjs",
         "src/app.tsx",
         "src/root.tsx"
       ]
     },
-    "q-b5e0f9a8.js": {
-      "size": 58,
+    "q-a8084e7d.js": {
+      "size": 87,
       "imports": [
-        "q-7b6df133.js"
+        "q-43f121af.js"
+      ],
+      "origins": [
+        "index.html",
+        "src/entry.client.ts"
       ]
     }
   },
@@ -86,7 +34,7 @@
     "buildMode": "production",
     "forceFullBuild": true,
     "entryStrategy": {
-      "type": "smart"
+      "type": "inline"
     }
   },
   "platform": {
