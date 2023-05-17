@@ -9,14 +9,7 @@ export default defineConfig(() => {
         input: ['index.html'],
       },
     },
-    plugins: [
-      qwikVite({
-        entryStrategy: {
-          type: 'inline',
-        },
-      }),
-      tsconfigPaths(),
-    ],
+    plugins: [qwikVite(), tsconfigPaths()],
     preview: {
       headers: {
         'Cache-Control': 'public, max-age=600',

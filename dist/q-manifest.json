@@ -1,29 +1,81 @@
 {
-  "symbols": {},
-  "mapping": {},
+  "symbols": {
+    "s_Ncbm0Trxwgc": {
+      "origin": "app.tsx",
+      "displayName": "app_component",
+      "canonicalFilename": "s_ncbm0trxwgc",
+      "hash": "Ncbm0Trxwgc",
+      "ctxKind": "function",
+      "ctxName": "component$",
+      "captures": false,
+      "parent": null
+    },
+    "s_0sWnTjI87LE": {
+      "origin": "app.tsx",
+      "displayName": "app_component_h1_button_onClick",
+      "canonicalFilename": "s_0swntji87le",
+      "hash": "0sWnTjI87LE",
+      "ctxKind": "eventHandler",
+      "ctxName": "onClick$",
+      "captures": false,
+      "parent": "s_Ncbm0Trxwgc"
+    }
+  },
+  "mapping": {
+    "s_Ncbm0Trxwgc": "q-cba89811.js",
+    "s_0sWnTjI87LE": "q-5f17d044.js"
+  },
   "bundles": {
-    "q-afd4bfde.js": {
+    "q-5f17d044.js": {
+      "size": 61,
+      "origins": [
+        "src/s_0swntji87le.js"
+      ],
+      "symbols": [
+        "s_0sWnTjI87LE"
+      ]
+    },
+    "q-cba89811.js": {
+      "size": 283,
+      "imports": [
+        "q-dbc7ab8d.js"
+      ],
+      "dynamicImports": [
+        "q-5f17d044.js"
+      ],
+      "origins": [
+        "src/entry_app.js",
+        "src/s_ncbm0trxwgc.js"
+      ],
+      "symbols": [
+        "s_Ncbm0Trxwgc"
+      ]
+    },
+    "q-cd2fa558.js": {
       "size": 87,
       "imports": [
-        "q-b5b0a14a.js"
+        "q-dbc7ab8d.js"
       ],
       "origins": [
         "index.html",
         "src/entry.client.ts"
       ]
     },
-    "q-b1ed40d0.js": {
-      "size": 58,
-      "imports": [
-        "q-b5b0a14a.js"
-      ]
-    },
-    "q-b5b0a14a.js": {
-      "size": 40126,
+    "q-dbc7ab8d.js": {
+      "size": 40143,
+      "dynamicImports": [
+        "q-cba89811.js"
+      ],
       "origins": [
         "node_modules/@builder.io/qwik/core.min.mjs",
         "src/app.tsx",
         "src/root.tsx"
+      ]
+    },
+    "q-ec4f0047.js": {
+      "size": 58,
+      "imports": [
+        "q-dbc7ab8d.js"
       ]
     }
   },
@@ -34,7 +86,7 @@
     "buildMode": "production",
     "forceFullBuild": true,
     "entryStrategy": {
-      "type": "inline"
+      "type": "smart"
     }
   },
   "platform": {

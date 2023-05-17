@@ -1,0 +1,1 @@
+import{A as o,z as l,_ as n}from"./q-dbc7ab8d.js";const r=()=>(console.log("mount app"),o("h1",null,null,[" ","Welcome To Mini Qwik"," ",o("button",null,{onClick$:l(()=>n(()=>import("./q-5f17d044.js"),[]),"s_0sWnTjI87LE")},"Click",3,null)," "],3,"4e_0"));export{r as s_Ncbm0Trxwgc};
