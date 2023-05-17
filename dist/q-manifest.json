@@ -2,28 +2,28 @@
   "symbols": {},
   "mapping": {},
   "bundles": {
-    "q-34aefe51.js": {
-      "size": 58,
-      "imports": [
-        "q-43f121af.js"
-      ]
-    },
-    "q-43f121af.js": {
-      "size": 40093,
-      "origins": [
-        "node_modules/@builder.io/qwik/core.min.mjs",
-        "src/app.tsx",
-        "src/root.tsx"
-      ]
-    },
-    "q-a8084e7d.js": {
+    "q-afd4bfde.js": {
       "size": 87,
       "imports": [
-        "q-43f121af.js"
+        "q-b5b0a14a.js"
       ],
       "origins": [
         "index.html",
         "src/entry.client.ts"
+      ]
+    },
+    "q-b1ed40d0.js": {
+      "size": 58,
+      "imports": [
+        "q-b5b0a14a.js"
+      ]
+    },
+    "q-b5b0a14a.js": {
+      "size": 40126,
+      "origins": [
+        "node_modules/@builder.io/qwik/core.min.mjs",
+        "src/app.tsx",
+        "src/root.tsx"
       ]
     }
   },
